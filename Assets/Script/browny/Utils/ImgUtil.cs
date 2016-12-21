@@ -39,6 +39,7 @@ public class ImgUtil : MonoBehaviour
         if (File.Exists(filePath))
         {
             fileData = File.ReadAllBytes(filePath);
+
             tex = new Texture2D(4, 4);
             tex.LoadImage(fileData);
         }
