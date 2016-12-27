@@ -48,7 +48,7 @@ Temporary Items
 
 Library
 Temp
-*. pidb
-*. unityproj
-* .. sln
-*. userprefs
+*.pidb
+*.unityproj
+*.sln
+*.userprefs
